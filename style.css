@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.nav{
+	border: solid whitesmoke;
+	text-align: right;
+}
+.menu{
+	background-color: skyblue;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin: 0 10px;
+  padding: 0 25px;
+  font-size: 25px;
+}
+.menu a:hover{
+		background-color: hotpink;
+	}
+
+span{
+	color: whitesmoke;
+}
+label{
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	width: 26px;
+	display: none;
+	float: right;
+}
+#toggle{
+	display: none;
+}
+.intro{
+	margin-bottom: 300px;
+}
+
+
+.intro2{
+	border: solid;
+	margin-left: 100px;
+	margin-right: 700px;
+	text-align: center;
+	margin-top: -850px;
+	margin-bottom: 260px;
+	background-color: whitesmoke;
+	font-size: 30px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.intro3{
+	text-decoration: underline;
+	margin-top: 5px;
+}
+h2{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 40px;
+	background-color: crimson;
+}
+h3{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px;
+	background-color: mistyrose;
+}
+.p4{
+	padding-left: 1050px;
+	border-radius: 5px;
+	filter: opacity(100%);
+}
+
+.container{
+	border: solid;
+	display: flex;
+	flex-direction: row;
+}
+.item{
+	border: solid  5px whitesmoke;
+	margin: 10px;
+	padding: 50px;
+	margin-left: 75px;
+	background-color: darkseagreen;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.item , .p1 , .p2 , .p3{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+
+.btn{
+  
+  margin-right: 1300px;
+  margin-top: -100px;
+}
+.bt1{
+  margin-left: 50px;
+  padding-top: 0px;
+	font-size: 23px;
+	width: 130px;
+	background-color: deeppink;
+	font-weight: bold;
+	border-radius: 5px;
+	filter: opacity(110%);
+
+}
+
+.bt1 a{
+	color: whitesmoke;
+}
+.bt1 a:hover{
+  background-color: blue;
+}
+
+.insta{
+	padding-left: 10px;
+}
+.insta_qr{
+	padding-left: 1050px;
+    margin-top: -90px;
+}
+.input{
+	font-family: 'Balsamiq Sans', cursive;
+	background-color: lightslategrey;
+	color: whitesmoke;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.contact{
+	text-decoration: underline;
+}
+.i1{
+	margin-left: 1200px;
+	color: ghostwhite;
+}
+.f0{
+	background-color: silver;
+	color: blue;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.certificate{
+	background-color: hotpink;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 430px){
+
+	html body{
+		box-sizing: border-box;
+		margin-right: 10px;
+		background-color: whitesmoke;
+	}
+	header{
+		background-color: lightsteelblue;
+		color: mediumblue;
+
+	}
+     label{
+		display: block;
+		cursor: pointer;
+		float: right;
+	}
+	.menu{
+		text-align: center;
+		width: 100%;
+		display: none;
+		margin-top: 70px;
+	}
+	.menu a{
+		display: block;
+		color: black;
+		font-weight: bolder;
+		background-color: royalblue;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid whitesmoke;
+		margin: 0;
+
+	}
+	.menu a:hover{
+		background-color: deeppink;
+	}
+	#toggle{
+		background-color: whitesmoke;
+	}
+
+	#toggle:checked + .menu{
+		display: block;
+		text-align: center;
+		background-color: whitesmoke;
+
+        
+	}
+
+      .container{
+      	margin-top: -250px;
+      	border: solid ghostwhite;
+				display: flex;
+				flex-direction: column;
+      }
+    .item{
+    	margin-left: 5px;
+    }
+    .intro{
+      border: solid whitesmoke;
+    }
+    .intro , .p4{
+       padding: 30px 0;
+       padding-left: 25px;
+       margin-left: -30px;
+       border-radius: 0;
+    }
+    .p4{
+    	margin-left: -15px;
+    	width: 370px;
+      height: 390px;
+    }
+    .p1 , .p2 , .p3{
+    	margin-left: 45px;
+       width: 200px;
+       height: 150px;
+    }
+
+   .intro2{
+   	margin-top: -300px;
+   	margin-right: 20px;
+   	margin-left: 20px;
+   	margin-bottom: 400px;
+   	font-size: 24px;
+   }
+   .btn{
+   	margin-bottom: 300px;
+   	margin-top: -380px;
+    margin-right: 10px;
+   }
+   .input{
+    	padding-left: 0 40px;
+    	margin-top: 10px;
+
+    }  
+
+    .f0{
+    	margin-right: 30px;
+    }
+    .insta_qr{
+    	height: 250px;
+    	width: 200px;
+    	margin-top: 50px;
+    	margin-left: -980px;
+
+    }
+    .i1{
+    	margin-left: 100px;
+       	color: whitesmoke;
+
+    }
+    h2 , h3{
+    	text-align: center;
+    }
+    
+	}
+
